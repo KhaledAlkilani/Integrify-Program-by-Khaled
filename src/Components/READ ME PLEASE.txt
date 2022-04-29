@@ -1,0 +1,6 @@
+I did not add and function the search button because I did search function with filtering so no need for button.
+
+And the buttons for each card is in the card footer as div, in the cards component.
+
+The application is working as requested and I used all hooks and functions that requested to be used, 
+the application is working well, hope that is enough to join the program. thanks

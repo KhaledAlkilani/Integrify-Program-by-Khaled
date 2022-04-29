@@ -1,0 +1,52 @@
+
+body {
+    background: linear-gradient(
+            -45deg,
+            rgba(86, 59, 25, 0.518),
+            rgba(86, 59, 25, 0.518),
+            rgba(111, 105, 97, 0.398),
+            rgba(121, 96, 73, 0.592)
+        );
+        background-size: 400% 400%;
+        animation: gradient 10s ease infinite;
+    }
+    @keyframes gradient {
+        0% {
+            background-position: 0% 50%;
+        }
+        50% {
+            background-position: 100% 50%;
+        }
+        100% {
+            background-position: 0% 50%;
+        }
+    }
+
+    .serBtn{
+        width: 13%;
+        background-color: burlywood;
+        border: none; 
+        font-weight: bold;
+        color: black;
+        opacity: 0.6;
+        border-radius: 5px;
+    }
+
+    .serBtn:hover{
+        opacity: 0.9;
+    }
+
+    .card-footer{
+        color: black;
+        cursor: pointer; 
+        text-align: center;
+        background-color: burlywood; 
+        font-weight: bold;
+        opacity: 0.7;
+    }
+
+    .card-footer:hover{
+        opacity: 0.9;
+    }
+
+   
