@@ -19,7 +19,7 @@ const App = () => {
     <Router>
     <div className='container pt-4 mt-4 '>
     <Switch>
-      <Route path="/home">
+      <Route path="/">
       <Header/>
         <Search searchKey={search} onSearchChange={setMySearchSate} />
       <Cards searchedName={search}/>
@@ -29,7 +29,7 @@ const App = () => {
       <Route path="/detail/:id">
       <CardDetails></CardDetails>
       </Route>
-      <Redirect to="/" />
+      <Redirect to="/home" />
     </Switch>
     </div>
     </Router>
