@@ -19,7 +19,7 @@ const App = () => {
     <Router>
     <div className='container pt-4 mt-4 '>
     <Switch>
-      <Route path="/">
+      <Route path="/home">
       <Header/>
         <Search searchKey={search} onSearchChange={setMySearchSate} />
       <Cards searchedName={search}/>
