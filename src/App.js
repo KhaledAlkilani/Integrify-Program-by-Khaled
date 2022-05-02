@@ -29,7 +29,7 @@ const App = () => {
       <Route path="/detail/:id">
       <CardDetails></CardDetails>
       </Route>
-      <Redirect to="/home" />
+      <Redirect to="/" />
     </Switch>
     </div>
     </Router>
