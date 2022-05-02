@@ -38,7 +38,7 @@ const CardDetails = () => {
                     </ul>
                 </div>
                 <div className='card-footer' style={{borderRadius: '5px'}}>
-                <a style={{textDecoration: 'none', color: 'black'}} href="/home" > Go Back</a>
+                <a style={{textDecoration: 'none', color: 'black'}} href="/" > Go Back</a>
                 </div>
             </div>
         </div>
